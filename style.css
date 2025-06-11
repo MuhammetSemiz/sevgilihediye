@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fff6f6;
+  color: #444;
+}
+
+header.hero {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url('https://source.unsplash.com/1600x900/?love,couple') no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+}
+
+header.hero h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+header.hero p {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2em;
+  color: #d6336c;
+  margin-bottom: 20px;
+}
+
+.memory {
+  background: #fff;
+  border-left: 5px solid #ffc9de;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.why ul {
+  list-style: heart;
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+
+.proposal {
+  text-align: center;
+  background: #ffe2ed;
+  padding: 50px 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.proposal button {
+  background-color: #ff69b4;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.proposal button:hover {
+  background-color: #e75480;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #999;
+  font-size: 0.9em;
+}
